@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mybank`
+-- Database: `Xbank`
 --
 
 -- --------------------------------------------------------
@@ -81,9 +81,9 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `email`, `password`, `type`, `date`) VALUES
-(1, 'cashierAdmin@cashier.com', 'Xuwudawei100#', 'cashier', CURRENT_TIMESTAMP),
-(2, 'managerAdmin@gmail.com', 'Xuwudawei100#', 'manager', CURRENT_TIMESTAMP),
-(3, 'user@gmail.com', 'Xuwudawei100#', 'user', CURRENT_TIMESTAMP);
+(1, 'cashierAdmin@cashier.com', 'Boanerges', 'cashier', CURRENT_TIMESTAMP),
+(2, 'managerAdmin@gmail.com', 'Boanerges', 'manager', CURRENT_TIMESTAMP),
+(3, 'samsonnkrumah253@gmail.com', 'Boanerges', 'user', CURRENT_TIMESTAMP);
 
 -- --------------------------------------------------------
 
